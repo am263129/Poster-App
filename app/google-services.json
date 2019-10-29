@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025963644559",
+    "firebase_url": "https://pngforesight.firebaseio.com",
+    "project_id": "pngforesight",
+    "storage_bucket": "pngforesight.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025963644559:android:41e602fdb89333235b42fa",
+        "android_client_info": {
+          "package_name": "social.media.png"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025963644559-84h31k01as82s26oh4goib16l7to5r0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "social.media.png",
+            "certificate_hash": "7de57a3503dbaa3261aa4f034ad9869b61611e2e"
+          }
+        },
+        {
+          "client_id": "1025963644559-rgthlcld0aa0dmnd8f72fkrl9kjcr3iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvxkrvhIKQGXwHuqH6uXnB1JfF1cxaqE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025963644559-rgthlcld0aa0dmnd8f72fkrl9kjcr3iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

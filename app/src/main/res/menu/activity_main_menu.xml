@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_Explore"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Explore"
+            android:visible="false" />
+        <item android:id="@+id/menu_new_post"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="New Post" />
+        <item android:id="@+id/menu_term_of_service"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Term of Service" />
+        <item android:id="@+id/menu_privacy_policy"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="privacy policy" />
+        <item android:id="@+id/menu_contact_us"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Contact us" />
+        <item android:id="@+id/menu_about_us"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="About us" />
+        <item android:id="@+id/menu_profile"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Profile" />
+    </group>
+</menu>
