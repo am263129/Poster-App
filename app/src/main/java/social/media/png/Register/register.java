@@ -198,12 +198,12 @@ public class register extends AppCompatActivity {
         myRef.setValue(email);
         myRef = database.getReference(id+"/Password");
         myRef.setValue(password);
-        myRef = database.getReference(id+"/Address");
-        myRef.setValue(address_edt.getText().toString());
-        myRef = database.getReference(id+"/Birthday");
-        myRef.setValue(birthday_edt.getText().toString());
-        myRef = database.getReference(id+"/Phone");
-        myRef.setValue(phone_edt.getText().toString());
+//        myRef = database.getReference(id+"/Address");
+//        myRef.setValue(address_edt.getText().toString());
+//        myRef = database.getReference(id+"/Birthday");
+//        myRef.setValue(birthday_edt.getText().toString());
+//        myRef = database.getReference(id+"/Phone");
+//        myRef.setValue(phone_edt.getText().toString());
         myRef = database.getReference(id+"/Gender");
         myRef.setValue(gender);
         myRef = database.getReference(id+"/Private");

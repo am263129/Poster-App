@@ -242,4 +242,37 @@
         <item>Zambia</item>
         <item>Zimbabwe</item>
     </string-array>
+
+
+    <string-array name="categories">
+        <item>Education</item>
+        <item>Tourism, Art &amp; Culture</item>
+        <item>Public Service</item>
+        <item>Police</item>
+        <item>Lands &amp; Physical Planning</item>
+        <item>Agriculture &amp; Livestock</item>
+        <item>Labour &amp; Industrial Relations</item>
+        <item>Inter Government Relations</item>
+        <item>Immigration &amp; BOrder Security</item>
+        <item>Housing &amp; Urban Development</item>
+        <item>Higher Education, Research, Sciences &amp; Technology</item>
+        <item>Health &amp; HIV/Aids</item>
+        <item>Forestry</item>
+        <item>Fisheries &amp; Marine Resources</item>
+        <item>Environment &amp; Conservation</item>
+        <item>Correctional Services</item>
+        <item>Community Development</item>
+        <item>Defence</item>
+        <item>Foreign Affairs &amp; Trade</item>
+        <item>Civil Aviation</item>
+        <item>Transport &amp; Infrastructure</item>
+        <item>National Planning &amp; Monitoring</item>
+        <item>Finance &amp; Rural Development</item>
+        <item>Bougainville Affairs</item>
+        <item>Petroleum</item>
+        <item>Mining</item>
+        <item>State Enterprises</item>
+        <item>Works &amp; Implementations</item>
+        <item>Commerce &amp; Industry</item>
+    </string-array>
 </resources>

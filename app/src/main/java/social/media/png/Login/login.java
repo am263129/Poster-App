@@ -45,6 +45,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        verify();
         email = (EditText)findViewById(R.id.useremail);
         password = (EditText)findViewById(R.id.password);
         btn_login = (Button)findViewById(R.id.btn_login);
@@ -90,6 +91,18 @@ public class login extends AppCompatActivity implements View.OnClickListener {
             case R.id.btn_login_with_facebook:
                 break;
 
+        }
+    }
+    private void verify() {
+
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        String email = prefs.getString("email", "dummy user");//"No name defined" is the default value.
+        String verify = prefs.getString("verify", "FALSE");
+        if (!email.equals("dummy user") && verify.equals("TRUE")) {
+            Global.current_user_email = email;
+            Intent intent = new Intent(login.this, MainActivity.class);
+            startActivity(intent);
+            finish();
         }
     }
 

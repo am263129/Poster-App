@@ -27,13 +27,23 @@
                 android:background="@android:drawable/screen_background_dark_transparent"
                 android:padding="20dp">
 
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logo"
+                    app:layout_constraintBottom_toTopOf="@+id/useremail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
                 <Button
                     android:id="@+id/btn_login"
                     android:layout_width="0dp"
                     android:layout_height="42dp"
                     android:layout_gravity="start"
                     android:layout_marginTop="16dp"
-                    android:layout_marginBottom="140dp"
+                    android:layout_marginBottom="150dp"
                     android:background="@drawable/selector_btn"
                     android:text="Log In"
                     android:textColor="@color/white"
@@ -41,7 +51,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/password"
-                    app:layout_constraintVertical_bias="0.994"/>
+                    app:layout_constraintVertical_bias="0.994" />
 
 
                 <Button
@@ -50,16 +60,15 @@
                     android:layout_height="42dp"
                     android:layout_gravity="start"
                     android:background="@drawable/selector_facebook"
+                    android:drawableLeft="@drawable/ico_facebook"
                     android:orientation="horizontal"
-                    android:textColor="@color/white"
                     android:text="Log In with Facebook"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toTopOf="@+id/btn_register"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.505"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/btn_login"
-                    android:drawableLeft="@drawable/ico_facebook">
-                </Button>
+                    app:layout_constraintTop_toBottomOf="@+id/btn_login"></Button>
 
                 <Button
                     android:id="@+id/btn_register"
@@ -80,7 +89,7 @@
                     android:id="@+id/useremail"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="100dp"
 
                     android:hint="@string/hint_email"
                     android:inputType="textEmailAddress"
@@ -108,38 +117,31 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/useremail" />
 
-                <ProgressBar
-                    android:id="@+id/loading"
-                    android:layout_width="0dp"
-                    android:layout_height="75dp"
-                    android:layout_gravity="center"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="64dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginBottom="64dp"
-                    android:visibility="gone"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/password"
-                    app:layout_constraintStart_toStartOf="@+id/password"
-                    app:layout_constraintTop_toBottomOf="@+id/password"
-                    app:layout_constraintVertical_bias="0.3" />
-
                 <CheckBox
                     android:id="@+id/cbx_remember"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
                     android:text="Remember Me"
                     android:textColor="@color/white"
-                    app:layout_constraintBottom_toTopOf="@+id/loading"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/password" />
+                    app:layout_constraintTop_toBottomOf="@+id/password"
+                    app:layout_constraintVertical_bias="0.06" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
+                <ProgressBar
+                    android:id="@+id/loading"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
             </LinearLayout>
 
         </LinearLayout>

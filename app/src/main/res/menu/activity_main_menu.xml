@@ -4,8 +4,7 @@
         <item
             android:id="@+id/menu_Explore"
             android:icon="@android:drawable/ic_lock_power_off"
-            android:title="Explore"
-            android:visible="false" />
+            android:title="Explore" />
         <item android:id="@+id/menu_new_post"
             android:icon="@android:drawable/ic_lock_power_off"
             android:title="New Post" />
